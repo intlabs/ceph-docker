@@ -49,3 +49,7 @@
 [client]
 {{range gets "/client/*"}}
   {{base .Key}} = {{.Value}}{{end}}
+
+[client.radosgw.gateway]
+{{range gets "/client.radosgw.gateway/*"}}
+  {{base .Key}} = {{.Value}}{{end}}
