@@ -50,6 +50,6 @@
 {{range gets "/client/*"}}
   {{base .Key}} = {{.Value}}{{end}}
 
-[client.radosgw.gateway]
-{{range gets "/client.radosgw.gateway/*"}}
+[client.rgw.gateway]
+{{range gets "/client.rgw.gateway/*"}}
   {{base .Key}} = {{.Value}}{{end}}
