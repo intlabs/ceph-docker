@@ -9,5 +9,5 @@ keys = [
  "/osd/",
  "/mds/",
  "/client/",
- "/client.radosgw.gateway/"
+ "/client.rgw.gateway/"
 ] 
